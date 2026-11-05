@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>DJ Noob — Listen everywhere</title>
+  <meta name="description" content="Listen to DJ Noob on your favorite streaming platform.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="brand">
+      <!-- Replace this text with an image/logo if you'd like. -->
+      <div> <img src="images/pfp.jpg" alt="DJ Noob Logo" class="logo-image"></div>
+      <p class="tagline">i wuv u ♡</p>
+      <h1>DJ Noob</h1>
+      <p class="intro">Listen on all platforms.</p>
+    </header>
+
+    <section class="announcement" aria-label="Announcement">
+      <span class="announcement-label">A LITTLE UPDATE</span>
+      <p id="announcementText">New music soon... Thanks for listening!</p>
+    </section>
+
+ <section class="platforms" aria-label="Streaming platforms">
+  <a class="platform-link" href="https://open.spotify.com/artist/1lThVv9eLRZt4kk3xQSHnX?si=Ej7BBeuQQaqhqw7lUsJLow" target="_blank" rel="noopener noreferrer">
+    <img class="platform-icon" src="images/spotify.svg" alt="">
+    <span>Spotify</span><span class="external" aria-hidden="true">↗</span>
+  </a>
+  <a class="platform-link" href="https://music.apple.com/us/artist/dj-noob/6821687570" target="_blank" rel="noopener noreferrer">
+    <img class="platform-icon" src="images/applemusic.svg" alt="">
+    <span>Apple Music</span><span class="external" aria-hidden="true">↗</span>
+  </a>
+  <a class="platform-link" href="https://music.youtube.com/channel/UCfWp8_mJ14k7KhZwe9jOjVg" target="_blank" rel="noopener noreferrer">
+    <img class="platform-icon" src="images/youtubemusic.svg" alt="">
+    <span>YouTube Music</span><span class="external" aria-hidden="true">↗</span>
+  </a>
+  <a class="platform-link" href="https://soundcloud.com/djnoobiwuvu" target="_blank" rel="noopener noreferrer">
+    <img class="platform-icon" src="images/soundcloud.svg" alt="">
+    <span>SoundCloud</span><span class="external" aria-hidden="true">↗</span>
+  </a>
+  <a class="platform-link" href="https://music.amazon.com.au/artists/B0B7VBVDF8/dj-noob" target="_blank" rel="noopener noreferrer">
+    <img class="platform-icon" src="images/amazon.png" alt="">
+    <span>Amazon Music</span><span class="external" aria-hidden="true">↗</span>
+  </a>
+</section>
+
+    <section class="latest-section" aria-label="Latest release">
+      <div class="section-heading">
+        <span class="eyebrow">OUT NOW</span>
+        <span class="section-line"></span>
+      </div>
+      <!-- Change the image, title, and YouTube URL in this card. -->
+      <a class="latest-card" href="https://youtu.be/3sPiONlevvQ?si=LTWlMRcC24bo_fhA" target="_blank" rel="noopener noreferrer" aria-label="Watch the latest release on YouTube">
+        <div class="cover-wrap">
+          <img src="images/latest-release.jpg" alt="Latest song cover artwork" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="cover-placeholder" aria-hidden="true">YOUR<br>ARTWORK</div>
+          <span class="play-button" aria-hidden="true">▶</span>
+        </div>
+        <div class="latest-info">
+          <span class="eyebrow">LATEST RELEASE</span>
+          <h2>Love to Give (feat. Lil Acidita)</h2>
+          <p>Watch the official video <span aria-hidden="true">↗</span></p>
+        </div>
+        
+      </a>
+    </section>
+
+    <footer class="footer">
+      <div class="socials" aria-label="Social links">
+        <a href="https://www.cherrypuffstudios.com" target="_blank" rel="noopener noreferrer">Commissions</a>
+        <span>·</span>
+        <a href="https://www.cherrypuffstudios.com" target="_blank" rel="noopener noreferrer">Portfolio</a>
+        <span>·</span>
+        <a href="https://www.youtube.com/@djnoobiwuvu" target="_blank" rel="noopener noreferrer">YouTube</a>
+        <span>·</span>
+        <a href="https://soundcloud.com/djnoobiwuvu" target="_blank" rel="noopener noreferrer">SoundCloud</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> Cherrypuff Records</p>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
